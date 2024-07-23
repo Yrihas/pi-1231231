@@ -1,0 +1,976 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local MainPage1 = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Johndoe = Instance.new("TextButton")
+local ImageButton = Instance.new("ImageButton")
+local DualUltima = Instance.new("TextButton")
+local NamePage1 = Instance.new("TextButton")
+local Mrbeastsall = Instance.new("TextButton")
+local RobloxDemonicBanHammer = Instance.new("TextButton")
+local tntmastersss = Instance.new("TextButton")
+local WelcometoRealmJumpscare = Instance.new("TextButton")
+local NoobBaseballBat = Instance.new("TextButton")
+local C00lguiv2 = Instance.new("TextButton")
+local PuppetMaster = Instance.new("TextButton")
+local Toadroastbyme = Instance.new("TextButton")
+local illumanati = Instance.new("TextButton")
+local Hint = Instance.new("TextButton")
+local Caducus = Instance.new("TextButton")
+local audiosname = Instance.new("TextButton")
+local GrabKnifeV3 = Instance.new("TextButton")
+local MasterHand = Instance.new("TextButton")
+local DemonicRealmSword = Instance.new("TextButton")
+local M4A1Gun = Instance.new("TextButton")
+local Pozziall = Instance.new("TextButton")
+local MarioExeSpam = Instance.new("TextButton")
+local RainbowMLGBus = Instance.new("TextButton")
+local ShedletskyRage = Instance.new("TextButton")
+local C00lkiddHint = Instance.new("TextButton")
+local K00pkiddHint = Instance.new("TextButton")
+local Hint2 = Instance.new("TextButton")
+local Hint3 = Instance.new("TextButton")
+local Hint4 = Instance.new("TextButton")
+local noscaryfacespam = Instance.new("TextButton")
+local RickandMortyMap = Instance.new("TextButton")
+local SkyBox1 = Instance.new("TextButton")
+local SkyBox2 = Instance.new("TextButton")
+local SkyBox3 = Instance.new("TextButton")
+local SkyBox4 = Instance.new("TextButton")
+local SkyBox5 = Instance.new("TextButton")
+local SkyBox6 = Instance.new("TextButton")
+local AK47 = Instance.new("TextButton")
+local FlamingScythe = Instance.new("TextButton")
+local X = Instance.new("TextButton")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+
+--Properties:
+
+MainPage1.Name = "Main Page 1"
+MainPage1.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+MainPage1.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = MainPage1
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.0697492138, 0, 0.0747549012, 0)
+Frame.Size = UDim2.new(0.849529803, 0, 0.849264681, 0)
+
+Johndoe.Name = "John doe"
+Johndoe.Parent = Frame
+Johndoe.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Johndoe.BorderColor3 = Color3.fromRGB(0, 0, 255)
+Johndoe.BorderSizePixel = 5
+Johndoe.Position = UDim2.new(0.0166051667, 0, 0.125541151, 0)
+Johndoe.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+Johndoe.Font = Enum.Font.SourceSansBold
+Johndoe.Text = "John doe"
+Johndoe.TextColor3 = Color3.fromRGB(255, 255, 255)
+Johndoe.TextScaled = true
+Johndoe.TextSize = 14.000
+Johndoe.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+Johndoe.TextWrapped = true
+
+ImageButton.Parent = Frame
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(0.0166051667, 0, 0.733044744, 0)
+ImageButton.Size = UDim2.new(0.298849642, 0, 0.235103175, 0)
+ImageButton.Image = "http://www.roblox.com/asset/?id=18607775665"
+
+DualUltima.Name = "Dual Ultima"
+DualUltima.Parent = Frame
+DualUltima.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DualUltima.BorderColor3 = Color3.fromRGB(0, 0, 255)
+DualUltima.BorderSizePixel = 5
+DualUltima.Position = UDim2.new(0.0166051667, 0, 0.246753275, 0)
+DualUltima.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+DualUltima.Font = Enum.Font.SourceSansBold
+DualUltima.Text = "Dual Ultima"
+DualUltima.TextColor3 = Color3.fromRGB(255, 255, 255)
+DualUltima.TextScaled = true
+DualUltima.TextSize = 14.000
+DualUltima.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+DualUltima.TextWrapped = true
+
+NamePage1.Name = "Name Page 1"
+NamePage1.Parent = Frame
+NamePage1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+NamePage1.BorderColor3 = Color3.fromRGB(0, 0, 255)
+NamePage1.BorderSizePixel = 5
+NamePage1.Position = UDim2.new(0.0811808109, 0, 0.0129870353, 0)
+NamePage1.Size = UDim2.new(0.835706651, 0, 0.0785905346, 0)
+NamePage1.Font = Enum.Font.SourceSansBold
+NamePage1.Text = "m00rkidd client edition - Page 1"
+NamePage1.TextColor3 = Color3.fromRGB(255, 255, 255)
+NamePage1.TextScaled = true
+NamePage1.TextSize = 14.000
+NamePage1.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+NamePage1.TextWrapped = true
+
+Mrbeastsall.Name = "Mrbeasts all"
+Mrbeastsall.Parent = Frame
+Mrbeastsall.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Mrbeastsall.BorderColor3 = Color3.fromRGB(0, 0, 255)
+Mrbeastsall.BorderSizePixel = 5
+Mrbeastsall.Position = UDim2.new(0.0166051667, 0, 0.360750347, 0)
+Mrbeastsall.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+Mrbeastsall.Font = Enum.Font.SourceSansBold
+Mrbeastsall.Text = "MrBeasts all"
+Mrbeastsall.TextColor3 = Color3.fromRGB(255, 255, 255)
+Mrbeastsall.TextScaled = true
+Mrbeastsall.TextSize = 14.000
+Mrbeastsall.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+Mrbeastsall.TextWrapped = true
+
+RobloxDemonicBanHammer.Name = "Roblox Demonic Ban Hammer"
+RobloxDemonicBanHammer.Parent = Frame
+RobloxDemonicBanHammer.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+RobloxDemonicBanHammer.BorderColor3 = Color3.fromRGB(0, 0, 255)
+RobloxDemonicBanHammer.BorderSizePixel = 5
+RobloxDemonicBanHammer.Position = UDim2.new(0.0166051667, 0, 0.47330448, 0)
+RobloxDemonicBanHammer.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+RobloxDemonicBanHammer.Font = Enum.Font.SourceSansBold
+RobloxDemonicBanHammer.Text = "Roblox Demonic Ban Hammer"
+RobloxDemonicBanHammer.TextColor3 = Color3.fromRGB(255, 255, 255)
+RobloxDemonicBanHammer.TextScaled = true
+RobloxDemonicBanHammer.TextSize = 14.000
+RobloxDemonicBanHammer.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+RobloxDemonicBanHammer.TextWrapped = true
+
+tntmastersss.Name = "tntmastersss"
+tntmastersss.Parent = Frame
+tntmastersss.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+tntmastersss.BorderColor3 = Color3.fromRGB(0, 0, 255)
+tntmastersss.BorderSizePixel = 5
+tntmastersss.Position = UDim2.new(0.0166051667, 0, 0.585858583, 0)
+tntmastersss.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+tntmastersss.Font = Enum.Font.SourceSansBold
+tntmastersss.Text = "TntmastersSS"
+tntmastersss.TextColor3 = Color3.fromRGB(255, 255, 255)
+tntmastersss.TextScaled = true
+tntmastersss.TextSize = 14.000
+tntmastersss.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+tntmastersss.TextWrapped = true
+
+WelcometoRealmJumpscare.Name = "Welcome to Realm Jumpscare"
+WelcometoRealmJumpscare.Parent = Frame
+WelcometoRealmJumpscare.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+WelcometoRealmJumpscare.BorderColor3 = Color3.fromRGB(0, 0, 255)
+WelcometoRealmJumpscare.BorderSizePixel = 5
+WelcometoRealmJumpscare.Position = UDim2.new(0.0977859795, 0, 0.125541121, 0)
+WelcometoRealmJumpscare.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+WelcometoRealmJumpscare.Font = Enum.Font.SourceSansBold
+WelcometoRealmJumpscare.Text = "Welcome to Realm Jumpscare"
+WelcometoRealmJumpscare.TextColor3 = Color3.fromRGB(255, 255, 255)
+WelcometoRealmJumpscare.TextScaled = true
+WelcometoRealmJumpscare.TextSize = 14.000
+WelcometoRealmJumpscare.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+WelcometoRealmJumpscare.TextWrapped = true
+
+NoobBaseballBat.Name = "Noob Baseball Bat"
+NoobBaseballBat.Parent = Frame
+NoobBaseballBat.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+NoobBaseballBat.BorderColor3 = Color3.fromRGB(0, 0, 255)
+NoobBaseballBat.BorderSizePixel = 5
+NoobBaseballBat.Position = UDim2.new(0.0977859795, 0, 0.246753275, 0)
+NoobBaseballBat.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+NoobBaseballBat.Font = Enum.Font.SourceSansBold
+NoobBaseballBat.Text = "Noob Baseball Bat"
+NoobBaseballBat.TextColor3 = Color3.fromRGB(255, 255, 255)
+NoobBaseballBat.TextScaled = true
+NoobBaseballBat.TextSize = 14.000
+NoobBaseballBat.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+NoobBaseballBat.TextWrapped = true
+
+C00lguiv2.Name = "C00lgui v2"
+C00lguiv2.Parent = Frame
+C00lguiv2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+C00lguiv2.BorderColor3 = Color3.fromRGB(0, 0, 255)
+C00lguiv2.BorderSizePixel = 5
+C00lguiv2.Position = UDim2.new(0.0977859795, 0, 0.360750347, 0)
+C00lguiv2.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+C00lguiv2.Font = Enum.Font.SourceSansBold
+C00lguiv2.Text = "C00lgui v2"
+C00lguiv2.TextColor3 = Color3.fromRGB(255, 255, 255)
+C00lguiv2.TextScaled = true
+C00lguiv2.TextSize = 14.000
+C00lguiv2.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+C00lguiv2.TextWrapped = true
+
+PuppetMaster.Name = "Puppet Master"
+PuppetMaster.Parent = Frame
+PuppetMaster.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PuppetMaster.BorderColor3 = Color3.fromRGB(0, 0, 255)
+PuppetMaster.BorderSizePixel = 5
+PuppetMaster.Position = UDim2.new(0.0977859795, 0, 0.47330448, 0)
+PuppetMaster.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+PuppetMaster.Font = Enum.Font.SourceSansBold
+PuppetMaster.Text = "Puppet Master"
+PuppetMaster.TextColor3 = Color3.fromRGB(255, 255, 255)
+PuppetMaster.TextScaled = true
+PuppetMaster.TextSize = 14.000
+PuppetMaster.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+PuppetMaster.TextWrapped = true
+
+Toadroastbyme.Name = "Toadroast [by me]"
+Toadroastbyme.Parent = Frame
+Toadroastbyme.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Toadroastbyme.BorderColor3 = Color3.fromRGB(0, 0, 255)
+Toadroastbyme.BorderSizePixel = 5
+Toadroastbyme.Position = UDim2.new(0.0977859795, 0, 0.585858583, 0)
+Toadroastbyme.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+Toadroastbyme.Font = Enum.Font.SourceSansBold
+Toadroastbyme.Text = "Toadroast [by me]"
+Toadroastbyme.TextColor3 = Color3.fromRGB(255, 255, 255)
+Toadroastbyme.TextScaled = true
+Toadroastbyme.TextSize = 14.000
+Toadroastbyme.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+Toadroastbyme.TextWrapped = true
+
+illumanati.Name = "illumanati"
+illumanati.Parent = Frame
+illumanati.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+illumanati.BorderColor3 = Color3.fromRGB(0, 0, 255)
+illumanati.BorderSizePixel = 5
+illumanati.Position = UDim2.new(0.180811808, 0, 0.125541121, 0)
+illumanati.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+illumanati.Font = Enum.Font.SourceSansBold
+illumanati.Text = "Ilumminati"
+illumanati.TextColor3 = Color3.fromRGB(255, 255, 255)
+illumanati.TextScaled = true
+illumanati.TextSize = 14.000
+illumanati.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+illumanati.TextWrapped = true
+
+Hint.Name = "Hint"
+Hint.Parent = Frame
+Hint.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Hint.BorderColor3 = Color3.fromRGB(0, 0, 255)
+Hint.BorderSizePixel = 5
+Hint.Position = UDim2.new(0.180811808, 0, 0.359307349, 0)
+Hint.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+Hint.Font = Enum.Font.SourceSansBold
+Hint.Text = "Hint 1"
+Hint.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hint.TextScaled = true
+Hint.TextSize = 14.000
+Hint.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+Hint.TextWrapped = true
+
+Caducus.Name = "Caducus"
+Caducus.Parent = Frame
+Caducus.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Caducus.BorderColor3 = Color3.fromRGB(0, 0, 255)
+Caducus.BorderSizePixel = 5
+Caducus.Position = UDim2.new(0.261992633, 0, 0.584415555, 0)
+Caducus.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+Caducus.Font = Enum.Font.SourceSansBold
+Caducus.Text = "Caducus [R6]"
+Caducus.TextColor3 = Color3.fromRGB(255, 255, 255)
+Caducus.TextScaled = true
+Caducus.TextSize = 14.000
+Caducus.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+Caducus.TextWrapped = true
+
+audiosname.Name = "audios name"
+audiosname.Parent = Frame
+audiosname.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+audiosname.BackgroundTransparency = 1.000
+audiosname.BorderColor3 = Color3.fromRGB(0, 0, 0)
+audiosname.BorderSizePixel = 0
+audiosname.Position = UDim2.new(0.784132838, 0, 0.803751826, 0)
+audiosname.Size = UDim2.new(0.156739816, 0, 0.0612745099, 0)
+audiosname.Font = Enum.Font.SourceSansItalic
+audiosname.Text = "-Audios-"
+audiosname.TextColor3 = Color3.fromRGB(255, 255, 255)
+audiosname.TextScaled = true
+audiosname.TextSize = 7.000
+audiosname.TextTransparency = 0.650
+audiosname.TextWrapped = true
+
+GrabKnifeV3.Name = "Grab Knife V3"
+GrabKnifeV3.Parent = Frame
+GrabKnifeV3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GrabKnifeV3.BorderColor3 = Color3.fromRGB(0, 0, 255)
+GrabKnifeV3.BorderSizePixel = 5
+GrabKnifeV3.Position = UDim2.new(0.180811808, 0, 0.246753275, 0)
+GrabKnifeV3.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+GrabKnifeV3.Font = Enum.Font.SourceSansBold
+GrabKnifeV3.Text = "Grab Knife V3"
+GrabKnifeV3.TextColor3 = Color3.fromRGB(255, 255, 255)
+GrabKnifeV3.TextScaled = true
+GrabKnifeV3.TextSize = 14.000
+GrabKnifeV3.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+GrabKnifeV3.TextWrapped = true
+
+MasterHand.Name = "Master Hand"
+MasterHand.Parent = Frame
+MasterHand.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MasterHand.BorderColor3 = Color3.fromRGB(0, 0, 255)
+MasterHand.BorderSizePixel = 5
+MasterHand.Position = UDim2.new(0.180811808, 0, 0.585858524, 0)
+MasterHand.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+MasterHand.Font = Enum.Font.SourceSansBold
+MasterHand.Text = "Master Hand"
+MasterHand.TextColor3 = Color3.fromRGB(255, 255, 255)
+MasterHand.TextScaled = true
+MasterHand.TextSize = 14.000
+MasterHand.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+MasterHand.TextWrapped = true
+
+DemonicRealmSword.Name = "Demonic Realm Sword"
+DemonicRealmSword.Parent = Frame
+DemonicRealmSword.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DemonicRealmSword.BorderColor3 = Color3.fromRGB(0, 0, 255)
+DemonicRealmSword.BorderSizePixel = 5
+DemonicRealmSword.Position = UDim2.new(0.261992633, 0, 0.125541076, 0)
+DemonicRealmSword.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+DemonicRealmSword.Font = Enum.Font.SourceSansBold
+DemonicRealmSword.Text = "Demonic Realm Sword"
+DemonicRealmSword.TextColor3 = Color3.fromRGB(255, 255, 255)
+DemonicRealmSword.TextScaled = true
+DemonicRealmSword.TextSize = 14.000
+DemonicRealmSword.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+DemonicRealmSword.TextWrapped = true
+
+M4A1Gun.Name = "M4A1 Gun"
+M4A1Gun.Parent = Frame
+M4A1Gun.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+M4A1Gun.BorderColor3 = Color3.fromRGB(0, 0, 255)
+M4A1Gun.BorderSizePixel = 5
+M4A1Gun.Position = UDim2.new(0.261992633, 0, 0.125541076, 0)
+M4A1Gun.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+M4A1Gun.Font = Enum.Font.SourceSansBold
+M4A1Gun.Text = "M4A1 Gun"
+M4A1Gun.TextColor3 = Color3.fromRGB(255, 255, 255)
+M4A1Gun.TextScaled = true
+M4A1Gun.TextSize = 14.000
+M4A1Gun.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+M4A1Gun.TextWrapped = true
+
+Pozziall.Name = "Pozzi all"
+Pozziall.Parent = Frame
+Pozziall.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Pozziall.BorderColor3 = Color3.fromRGB(0, 0, 255)
+Pozziall.BorderSizePixel = 5
+Pozziall.Position = UDim2.new(0.261992633, 0, 0.246753275, 0)
+Pozziall.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+Pozziall.Font = Enum.Font.SourceSansBold
+Pozziall.Text = "Pozzi all"
+Pozziall.TextColor3 = Color3.fromRGB(255, 255, 255)
+Pozziall.TextScaled = true
+Pozziall.TextSize = 14.000
+Pozziall.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+Pozziall.TextWrapped = true
+
+MarioExeSpam.Name = "Mario.Exe Spam"
+MarioExeSpam.Parent = Frame
+MarioExeSpam.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MarioExeSpam.BorderColor3 = Color3.fromRGB(0, 0, 255)
+MarioExeSpam.BorderSizePixel = 5
+MarioExeSpam.Position = UDim2.new(0.341328412, 0, 0.125541121, 0)
+MarioExeSpam.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+MarioExeSpam.Font = Enum.Font.SourceSansBold
+MarioExeSpam.Text = "Mario.Exe Spam"
+MarioExeSpam.TextColor3 = Color3.fromRGB(255, 255, 255)
+MarioExeSpam.TextScaled = true
+MarioExeSpam.TextSize = 14.000
+MarioExeSpam.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+MarioExeSpam.TextWrapped = true
+
+RainbowMLGBus.Name = "Rainbow MLG Bus"
+RainbowMLGBus.Parent = Frame
+RainbowMLGBus.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+RainbowMLGBus.BorderColor3 = Color3.fromRGB(0, 0, 255)
+RainbowMLGBus.BorderSizePixel = 5
+RainbowMLGBus.Position = UDim2.new(0.341328412, 0, 0.246753275, 0)
+RainbowMLGBus.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+RainbowMLGBus.Font = Enum.Font.SourceSansBold
+RainbowMLGBus.Text = "Rainbow MLG Bus"
+RainbowMLGBus.TextColor3 = Color3.fromRGB(255, 255, 255)
+RainbowMLGBus.TextScaled = true
+RainbowMLGBus.TextSize = 14.000
+RainbowMLGBus.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+RainbowMLGBus.TextWrapped = true
+
+ShedletskyRage.Name = "Shedletsky Rage"
+ShedletskyRage.Parent = Frame
+ShedletskyRage.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ShedletskyRage.BorderColor3 = Color3.fromRGB(0, 0, 255)
+ShedletskyRage.BorderSizePixel = 5
+ShedletskyRage.Position = UDim2.new(0.341328412, 0, 0.35786435, 0)
+ShedletskyRage.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+ShedletskyRage.Font = Enum.Font.SourceSansBold
+ShedletskyRage.Text = "Shedletsky Rage"
+ShedletskyRage.TextColor3 = Color3.fromRGB(255, 255, 255)
+ShedletskyRage.TextScaled = true
+ShedletskyRage.TextSize = 14.000
+ShedletskyRage.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+ShedletskyRage.TextWrapped = true
+
+C00lkiddHint.Name = "C00lkidd Hint"
+C00lkiddHint.Parent = Frame
+C00lkiddHint.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+C00lkiddHint.BorderColor3 = Color3.fromRGB(0, 0, 255)
+C00lkiddHint.BorderSizePixel = 5
+C00lkiddHint.Position = UDim2.new(0.0166051667, 0, 0.694083691, 0)
+C00lkiddHint.Size = UDim2.new(0.0654113889, 0, 0.0251994971, 0)
+C00lkiddHint.Font = Enum.Font.SourceSansBold
+C00lkiddHint.Text = "c00lkidd Hint"
+C00lkiddHint.TextColor3 = Color3.fromRGB(255, 255, 255)
+C00lkiddHint.TextScaled = true
+C00lkiddHint.TextSize = 14.000
+C00lkiddHint.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+C00lkiddHint.TextWrapped = true
+
+K00pkiddHint.Name = "K00pkidd Hint"
+K00pkiddHint.Parent = Frame
+K00pkiddHint.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+K00pkiddHint.BorderColor3 = Color3.fromRGB(0, 0, 255)
+K00pkiddHint.BorderSizePixel = 5
+K00pkiddHint.Position = UDim2.new(0.0977859795, 0, 0.694083691, 0)
+K00pkiddHint.Size = UDim2.new(0.0654113889, 0, 0.0251994971, 0)
+K00pkiddHint.Font = Enum.Font.SourceSansBold
+K00pkiddHint.Text = "k00pkidd Hint"
+K00pkiddHint.TextColor3 = Color3.fromRGB(255, 255, 255)
+K00pkiddHint.TextScaled = true
+K00pkiddHint.TextSize = 14.000
+K00pkiddHint.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+K00pkiddHint.TextWrapped = true
+
+Hint2.Name = "Hint 2"
+Hint2.Parent = Frame
+Hint2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Hint2.BorderColor3 = Color3.fromRGB(0, 0, 255)
+Hint2.BorderSizePixel = 5
+Hint2.Position = UDim2.new(0.261992633, 0, 0.359307349, 0)
+Hint2.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+Hint2.Font = Enum.Font.SourceSansBold
+Hint2.Text = "Hint 2"
+Hint2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hint2.TextScaled = true
+Hint2.TextSize = 14.000
+Hint2.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+Hint2.TextWrapped = true
+
+Hint3.Name = "Hint 3"
+Hint3.Parent = Frame
+Hint3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Hint3.BorderColor3 = Color3.fromRGB(0, 0, 255)
+Hint3.BorderSizePixel = 5
+Hint3.Position = UDim2.new(0.180811808, 0, 0.47330448, 0)
+Hint3.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+Hint3.Font = Enum.Font.SourceSansBold
+Hint3.Text = "Hint 3"
+Hint3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hint3.TextScaled = true
+Hint3.TextSize = 14.000
+Hint3.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+Hint3.TextWrapped = true
+
+Hint4.Name = "Hint 4"
+Hint4.Parent = Frame
+Hint4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Hint4.BorderColor3 = Color3.fromRGB(0, 0, 255)
+Hint4.BorderSizePixel = 5
+Hint4.Position = UDim2.new(0.261992633, 0, 0.47330448, 0)
+Hint4.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+Hint4.Font = Enum.Font.SourceSansBold
+Hint4.Text = "Hint 4"
+Hint4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hint4.TextScaled = true
+Hint4.TextSize = 14.000
+Hint4.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+Hint4.TextWrapped = true
+
+noscaryfacespam.Name = "no scary face spam"
+noscaryfacespam.Parent = Frame
+noscaryfacespam.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+noscaryfacespam.BorderColor3 = Color3.fromRGB(0, 0, 255)
+noscaryfacespam.BorderSizePixel = 5
+noscaryfacespam.Position = UDim2.new(0.341328412, 0, 0.47330448, 0)
+noscaryfacespam.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+noscaryfacespam.Font = Enum.Font.SourceSansBold
+noscaryfacespam.Text = "no scary face spam"
+noscaryfacespam.TextColor3 = Color3.fromRGB(255, 255, 255)
+noscaryfacespam.TextScaled = true
+noscaryfacespam.TextSize = 14.000
+noscaryfacespam.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+noscaryfacespam.TextWrapped = true
+
+RickandMortyMap.Name = "Rick and Morty Map"
+RickandMortyMap.Parent = Frame
+RickandMortyMap.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+RickandMortyMap.BorderColor3 = Color3.fromRGB(0, 0, 255)
+RickandMortyMap.BorderSizePixel = 5
+RickandMortyMap.Position = UDim2.new(0.341328412, 0, 0.585858583, 0)
+RickandMortyMap.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+RickandMortyMap.Font = Enum.Font.SourceSansBold
+RickandMortyMap.Text = "Rick and Morty Map"
+RickandMortyMap.TextColor3 = Color3.fromRGB(255, 255, 255)
+RickandMortyMap.TextScaled = true
+RickandMortyMap.TextSize = 14.000
+RickandMortyMap.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+RickandMortyMap.TextWrapped = true
+
+SkyBox1.Name = "SkyBox 1"
+SkyBox1.Parent = Frame
+SkyBox1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SkyBox1.BorderColor3 = Color3.fromRGB(0, 0, 255)
+SkyBox1.BorderSizePixel = 5
+SkyBox1.Position = UDim2.new(0.420664221, 0, 0.125541121, 0)
+SkyBox1.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+SkyBox1.Font = Enum.Font.SourceSansBold
+SkyBox1.Text = "SkyBox 1"
+SkyBox1.TextColor3 = Color3.fromRGB(255, 255, 255)
+SkyBox1.TextScaled = true
+SkyBox1.TextSize = 14.000
+SkyBox1.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+SkyBox1.TextWrapped = true
+
+SkyBox2.Name = "SkyBox 2"
+SkyBox2.Parent = Frame
+SkyBox2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SkyBox2.BorderColor3 = Color3.fromRGB(0, 0, 255)
+SkyBox2.BorderSizePixel = 5
+SkyBox2.Position = UDim2.new(0.5, 0, 0.125541121, 0)
+SkyBox2.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+SkyBox2.Font = Enum.Font.SourceSansBold
+SkyBox2.Text = "SkyBox 2"
+SkyBox2.TextColor3 = Color3.fromRGB(255, 255, 255)
+SkyBox2.TextScaled = true
+SkyBox2.TextSize = 14.000
+SkyBox2.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+SkyBox2.TextWrapped = true
+
+SkyBox3.Name = "SkyBox 3"
+SkyBox3.Parent = Frame
+SkyBox3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SkyBox3.BorderColor3 = Color3.fromRGB(0, 0, 255)
+SkyBox3.BorderSizePixel = 5
+SkyBox3.Position = UDim2.new(0.420664221, 0, 0.246753275, 0)
+SkyBox3.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+SkyBox3.Font = Enum.Font.SourceSansBold
+SkyBox3.Text = "SkyBox 3"
+SkyBox3.TextColor3 = Color3.fromRGB(255, 255, 255)
+SkyBox3.TextScaled = true
+SkyBox3.TextSize = 14.000
+SkyBox3.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+SkyBox3.TextWrapped = true
+
+SkyBox4.Name = "SkyBox 4"
+SkyBox4.Parent = Frame
+SkyBox4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SkyBox4.BorderColor3 = Color3.fromRGB(0, 0, 255)
+SkyBox4.BorderSizePixel = 5
+SkyBox4.Position = UDim2.new(0.5, 0, 0.246753275, 0)
+SkyBox4.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+SkyBox4.Font = Enum.Font.SourceSansBold
+SkyBox4.Text = "SkyBox 4"
+SkyBox4.TextColor3 = Color3.fromRGB(255, 255, 255)
+SkyBox4.TextScaled = true
+SkyBox4.TextSize = 14.000
+SkyBox4.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+SkyBox4.TextWrapped = true
+
+SkyBox5.Name = "SkyBox 5"
+SkyBox5.Parent = Frame
+SkyBox5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SkyBox5.BorderColor3 = Color3.fromRGB(0, 0, 255)
+SkyBox5.BorderSizePixel = 5
+SkyBox5.Position = UDim2.new(0.420664221, 0, 0.35786435, 0)
+SkyBox5.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+SkyBox5.Font = Enum.Font.SourceSansBold
+SkyBox5.Text = "SkyBox 5"
+SkyBox5.TextColor3 = Color3.fromRGB(255, 255, 255)
+SkyBox5.TextScaled = true
+SkyBox5.TextSize = 14.000
+SkyBox5.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+SkyBox5.TextWrapped = true
+
+SkyBox6.Name = "SkyBox 6"
+SkyBox6.Parent = Frame
+SkyBox6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SkyBox6.BorderColor3 = Color3.fromRGB(0, 0, 255)
+SkyBox6.BorderSizePixel = 5
+SkyBox6.Position = UDim2.new(0.5, 0, 0.35786435, 0)
+SkyBox6.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+SkyBox6.Font = Enum.Font.SourceSansBold
+SkyBox6.Text = "SkyBox 6"
+SkyBox6.TextColor3 = Color3.fromRGB(255, 255, 255)
+SkyBox6.TextScaled = true
+SkyBox6.TextSize = 14.000
+SkyBox6.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+SkyBox6.TextWrapped = true
+
+AK47.Name = "AK-47"
+AK47.Parent = Frame
+AK47.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AK47.BorderColor3 = Color3.fromRGB(0, 0, 255)
+AK47.BorderSizePixel = 5
+AK47.Position = UDim2.new(0.420664221, 0, 0.47330448, 0)
+AK47.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+AK47.Font = Enum.Font.SourceSansBold
+AK47.Text = "AK-47"
+AK47.TextColor3 = Color3.fromRGB(255, 255, 255)
+AK47.TextScaled = true
+AK47.TextSize = 14.000
+AK47.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+AK47.TextWrapped = true
+
+FlamingScythe.Name = "Flaming Scythe"
+FlamingScythe.Parent = Frame
+FlamingScythe.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FlamingScythe.BorderColor3 = Color3.fromRGB(0, 0, 255)
+FlamingScythe.BorderSizePixel = 5
+FlamingScythe.Position = UDim2.new(0.5, 0, 0.471861482, 0)
+FlamingScythe.Size = UDim2.new(0.0654113889, 0, 0.0872485414, 0)
+FlamingScythe.Font = Enum.Font.SourceSansBold
+FlamingScythe.Text = "Flaming Scythe"
+FlamingScythe.TextColor3 = Color3.fromRGB(255, 255, 255)
+FlamingScythe.TextScaled = true
+FlamingScythe.TextSize = 14.000
+FlamingScythe.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+FlamingScythe.TextWrapped = true
+
+X.Name = "X"
+X.Parent = Frame
+X.AnchorPoint = Vector2.new(0.5, 0.5)
+X.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+X.BorderColor3 = Color3.fromRGB(0, 26, 255)
+X.BorderSizePixel = 5
+X.Position = UDim2.new(0.966443062, 0, 0.051308658, 0)
+X.Size = UDim2.new(0.0511408187, 0, 0.0573134646, 0)
+X.Font = Enum.Font.SourceSans
+X.Text = "X"
+X.TextColor3 = Color3.fromRGB(255, 56, 56)
+X.TextScaled = true
+X.TextSize = 14.000
+X.TextWrapped = true
+
+UITextSizeConstraint.Parent = X
+UITextSizeConstraint.MaxTextSize = 51
+
+-- Scripts:
+
+local function CUIC_fake_script() -- Johndoe.Script 
+	local script = Instance.new('Script', Johndoe)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-John-doe-script-by-g00byd0lan-10381"))()
+	end)
+end
+coroutine.wrap(CUIC_fake_script)()
+local function IQJIC_fake_script() -- DualUltima.Script 
+	local script = Instance.new('Script', DualUltima)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Yrihas/sfasf/main/asfaewfe"))()
+	end)
+end
+coroutine.wrap(IQJIC_fake_script)()
+local function YWJPJR_fake_script() -- NamePage1.Script 
+	local script = Instance.new('Script', NamePage1)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-John-doe-script-by-g00byd0lan-10381"))()
+	end)
+end
+coroutine.wrap(YWJPJR_fake_script)()
+local function NIYGHMZ_fake_script() -- Mrbeastsall.Script 
+	local script = Instance.new('Script', Mrbeastsall)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastefy.app/0i3mEZPN/raw"))()
+	end)
+end
+coroutine.wrap(NIYGHMZ_fake_script)()
+local function RJLJC_fake_script() -- RobloxDemonicBanHammer.Script 
+	local script = Instance.new('Script', RobloxDemonicBanHammer)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Yrihas/Roblox-Demonic-Ban-Hammer/main/Roblox%20Demonic%20Ban%20Hammer"))()
+	end)
+end
+coroutine.wrap(RJLJC_fake_script)()
+local function PFPRFGL_fake_script() -- tntmastersss.Script 
+	local script = Instance.new('Script', tntmastersss)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-TntmastersSS-7206"))()
+	end)
+end
+coroutine.wrap(PFPRFGL_fake_script)()
+local function FIBQLYD_fake_script() -- WelcometoRealmJumpscare.Script 
+	local script = Instance.new('Script', WelcometoRealmJumpscare)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastefy.app/XrpiuxDs/raw"))()
+	end)
+end
+coroutine.wrap(FIBQLYD_fake_script)()
+local function LZREY_fake_script() -- NoobBaseballBat.Script 
+	local script = Instance.new('Script', NoobBaseballBat)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Yrihas/wfwafawfw/main/ffefefeafwffw"))()
+	end)
+end
+coroutine.wrap(LZREY_fake_script)()
+local function RUPVGYY_fake_script() -- C00lguiv2.Script 
+	local script = Instance.new('Script', C00lguiv2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:GetObjects("rbxassetid://9827584846")[1].Source)()
+	end)
+end
+coroutine.wrap(RUPVGYY_fake_script)()
+local function KKCS_fake_script() -- PuppetMaster.Script 
+	local script = Instance.new('Script', PuppetMaster)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Yrihas/Puppet-Master/main/Puppet%20Master"))()
+	end)
+end
+coroutine.wrap(KKCS_fake_script)()
+local function XYWP_fake_script() -- Toadroastbyme.Script 
+	local script = Instance.new('Script', Toadroastbyme)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Yrihas/gogo-gafa/main/efsgfsegsegge"))()
+	end)
+end
+coroutine.wrap(XYWP_fake_script)()
+local function SVBTC_fake_script() -- illumanati.Script 
+	local script = Instance.new('Script', illumanati)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Yrihas/weadfwf/main/dasdawff"))()
+	end)
+end
+coroutine.wrap(SVBTC_fake_script)()
+local function OZBTK_fake_script() -- Hint.Script 
+	local script = Instance.new('Script', Hint)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastefy.app/3fbovJqZ/raw"))()
+	end)
+end
+coroutine.wrap(OZBTK_fake_script)()
+local function SICI_fake_script() -- Caducus.Script 
+	local script = Instance.new('Script', Caducus)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/jfryBKds"))()
+	end)
+end
+coroutine.wrap(SICI_fake_script)()
+local function JXBJZ_fake_script() -- GrabKnifeV3.Script 
+	local script = Instance.new('Script', GrabKnifeV3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Yrihas/grab-knife-v3/main/grab%20knife%20%20main"))()
+	end)
+end
+coroutine.wrap(JXBJZ_fake_script)()
+local function LSKQ_fake_script() -- MasterHand.Script 
+	local script = Instance.new('Script', MasterHand)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Yrihas/Master-Hand/main/Master%20Hand"))()
+	end)
+end
+coroutine.wrap(LSKQ_fake_script)()
+local function RRGDQP_fake_script() -- DemonicRealmSword.Script 
+	local script = Instance.new('Script', DemonicRealmSword)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Yrihas/safafg/main/fsdggrg"))()
+	end)
+end
+coroutine.wrap(RRGDQP_fake_script)()
+local function BVFIMP_fake_script() -- M4A1Gun.Script 
+	local script = Instance.new('Script', M4A1Gun)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Yrihas/Realistic-M4A1-Gun/main/Realistic%20M4A1%20Gun"))()
+	end)
+end
+coroutine.wrap(BVFIMP_fake_script)()
+local function IGBTAKW_fake_script() -- Pozziall.Script 
+	local script = Instance.new('Script', Pozziall)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastefy.app/nItu3CyS/raw"))()
+	end)
+end
+coroutine.wrap(IGBTAKW_fake_script)()
+local function WTFT_fake_script() -- MarioExeSpam.Script 
+	local script = Instance.new('Script', MarioExeSpam)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastefy.app/OyPD870e/raw"))()
+	end)
+end
+coroutine.wrap(WTFT_fake_script)()
+local function AEYT_fake_script() -- RainbowMLGBus.Script 
+	local script = Instance.new('Script', RainbowMLGBus)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Yrihas/fsfaf/main/fawfafs"))()
+	end)
+end
+coroutine.wrap(AEYT_fake_script)()
+local function CMRMOD_fake_script() -- ShedletskyRage.Script 
+	local script = Instance.new('Script', ShedletskyRage)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Yrihas/shedletsky/main/dafwfaf"))()
+	end)
+end
+coroutine.wrap(CMRMOD_fake_script)()
+local function YYVAFE_fake_script() -- C00lkiddHint.Script 
+	local script = Instance.new('Script', C00lkiddHint)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastefy.app/orTZzWok/raw"))()
+	end)
+end
+coroutine.wrap(YYVAFE_fake_script)()
+local function EFGQ_fake_script() -- K00pkiddHint.Script 
+	local script = Instance.new('Script', K00pkiddHint)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastefy.app/HltxB1OY/raw"))()
+	end)
+end
+coroutine.wrap(EFGQ_fake_script)()
+local function UMPYU_fake_script() -- Hint2.Script 
+	local script = Instance.new('Script', Hint2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastefy.app/V5jUEN5a/raw"))()
+	end)
+end
+coroutine.wrap(UMPYU_fake_script)()
+local function REVDI_fake_script() -- Hint3.Script 
+	local script = Instance.new('Script', Hint3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastefy.app/3qMxaEVF/raw"))()
+	end)
+end
+coroutine.wrap(REVDI_fake_script)()
+local function PJWV_fake_script() -- Hint4.Script 
+	local script = Instance.new('Script', Hint4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastefy.app/6l75vxTC/raw"))()
+	end)
+end
+coroutine.wrap(PJWV_fake_script)()
+local function RSRH_fake_script() -- noscaryfacespam.Script 
+	local script = Instance.new('Script', noscaryfacespam)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastefy.app/EJveo0ul/raw"))()
+	end)
+end
+coroutine.wrap(RSRH_fake_script)()
+local function VGNMX_fake_script() -- RickandMortyMap.Script 
+	local script = Instance.new('Script', RickandMortyMap)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Yrihas/Rick-and-Morty-map/main/rdsf"))()
+	end)
+end
+coroutine.wrap(VGNMX_fake_script)()
+local function GBLOEN_fake_script() -- SkyBox1.Script 
+	local script = Instance.new('Script', SkyBox1)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastefy.app/ZGdWS5Of/raw"))()
+	end)
+end
+coroutine.wrap(GBLOEN_fake_script)()
+local function TRKK_fake_script() -- SkyBox2.Script 
+	local script = Instance.new('Script', SkyBox2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastefy.app/lscjPBIr/raw"))()
+	end)
+end
+coroutine.wrap(TRKK_fake_script)()
+local function PDYM_fake_script() -- SkyBox3.Script 
+	local script = Instance.new('Script', SkyBox3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastefy.app/VgtB4XPD/raw"))()
+	end)
+end
+coroutine.wrap(PDYM_fake_script)()
+local function RAPUTGZ_fake_script() -- SkyBox4.Script 
+	local script = Instance.new('Script', SkyBox4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastefy.app/kZBa6jmz/raw"))()
+	end)
+end
+coroutine.wrap(RAPUTGZ_fake_script)()
+local function BSBC_fake_script() -- SkyBox5.Script 
+	local script = Instance.new('Script', SkyBox5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastefy.app/dC4i8PuV/raw"))()
+	end)
+end
+coroutine.wrap(BSBC_fake_script)()
+local function HRJU_fake_script() -- SkyBox6.Script 
+	local script = Instance.new('Script', SkyBox6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastefy.app/yp9GyKda/raw"))()
+	end)
+end
+coroutine.wrap(HRJU_fake_script)()
+local function BNQUXVA_fake_script() -- AK47.Script 
+	local script = Instance.new('Script', AK47)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Yrihas/ak-47/main/ak%2047"))()
+	end)
+end
+coroutine.wrap(BNQUXVA_fake_script)()
+local function TKKCCMS_fake_script() -- FlamingScythe.Script 
+	local script = Instance.new('Script', FlamingScythe)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Yrihas/Flaming-Scythe/main/Flaming%20Scythe"))()
+	end)
+end
+coroutine.wrap(TKKCCMS_fake_script)()
+local function PANYET_fake_script() -- X.LocalScript 
+	local script = Instance.new('LocalScript', X)
+
+	local frame = script.Parent.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frame.Visible = false
+	end)
+end
+coroutine.wrap(PANYET_fake_script)()
+local function BWNMCG_fake_script() -- MainPage1.Script 
+	local script = Instance.new('Script', MainPage1)
+
+	Frame = script.Parent.Frame
+	Frame.Draggable = true
+	Frame.Selectable = true
+	Frame.Active = true
+end
+coroutine.wrap(BWNMCG_fake_script)()
